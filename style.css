@@ -1,0 +1,45 @@
+/*
+Theme Name: second portfolio
+Version: 1.0
+Description: A child theme of _tk
+Template: _tk-master 4
+*/
+
+@import url("../_tk-master 4/style.css");
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+body {
+	background-color: #3F51B5;
+	color: #ffffff;
+	font-family: 'Arimo', serif;
+}
+a {
+	color: #ffffff;
+}
+h1 {
+	font-family: 'Pacifico', serif;
+	font-size: 50px;
+	
+}
+.navbar-default {
+	background-color: #303F9F;
+	border-color: #303F9F;
+	color: #aaaaaa;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #ffffff;
+	background-color: #7C4DFF;
+}
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+.navbar-default .navbar-brand {
+	color: white;
+}
+.jumbotron{
+	background-color: #303F9F;
+}
+.btn-primary{
+	background-color: #7C4DFF;
+	border-color: #7C4DFF;
+}
